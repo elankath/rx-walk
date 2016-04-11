@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true,
+        "outDir": "lib"
+    },
+    "files": [
+        "src/RxWalk.ts",
+        "src/walk.ts",
+        "node_modules/typescript/lib/lib.es6.d.ts",
+        "typings/main.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

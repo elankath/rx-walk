@@ -1,0 +1,11 @@
+{
+  "ambientDependencies": {
+    "commander": "github:DefinitelyTyped/DefinitelyTyped/commander/commander.d.ts#6d09e1a5aea3240e7290be602ed03c88e38cd07d",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#48c1e3c1d6baefa4f1a126f188c27c4fefd36bff",
+    "shelljs": "github:DefinitelyTyped/DefinitelyTyped/shelljs/shelljs.d.ts#ce14ae27a020194da3d35aa3468ca1e9e5296316"
+  },
+  "dependencies": {
+    "glob": "github:typed-typings/npm-glob#59ca0f5d4696a8d4da27858035316c1014133fcb",
+    "minimatch": "github:typed-typings/npm-minimatch#74f47de8acb42d668491987fc6bc144e7d9aa891"
+  }
+}

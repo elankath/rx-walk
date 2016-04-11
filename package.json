@@ -1,0 +1,39 @@
+{
+  "name": "rx-walk",
+  "version": "1.0.0",
+  "description": "Rx Observable that walks over a directory and provides stream of fs.stat events to a Rx Observer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "walk": "lib/walk.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elankath/rx-walk.git"
+  },
+  "keywords": [
+    "typescript",
+    "rx",
+    "rjs",
+    "reactive",
+    "rx"
+  ],
+  "author": "Tarun Elankath",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/elankath/rx-walk/issues"
+  },
+  "homepage": "https://github.com/elankath/rx-walk#readme",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-beta.2",
+    "commander": "^2.9.0",
+    "glob": "^7.0.0",
+    "minimatch": "^3.0.0",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.2"
+  }
+}
